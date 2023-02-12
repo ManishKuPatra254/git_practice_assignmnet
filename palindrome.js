@@ -1,9 +1,9 @@
 let str = "madam";
-let empty_string ="";
+let empty_sting ="";
 for(let i = str.length-1;i>=0;i--){
-  empty_string = empty_string+str[i];
+  empty = empty_string+str[i];
 }
-  if(empty_string==str){
+  if(empty_string=str){
     console.log("It is a palindrome number");
   }
   else{
